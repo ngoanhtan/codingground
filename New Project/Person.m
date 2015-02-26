@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 
 @implementation Person 
@@ -15,7 +16,10 @@
     [ self saySomething:@"OMG I was there !"];
 }
 - (void) saySomething : (NSString*) str{
-    NSLog(str);
+    NSLog(@"One person say : %@",str);
+}
++ (id) person {
+    return [[self alloc] init];
 }
 
 @end

@@ -1,8 +1,6 @@
 
 #import "Person.h"
-#import "ShoutingPerson.m"
-@interface ShoutingPerson : Person {
 
-}
+@interface ShoutingPerson : Person
 
 @end

@@ -1,5 +1,4 @@
-main: Person.m \
- /usr/GNUstep/System/Library/Headers/Foundation/Foundation.h \
+main: main.m /usr/GNUstep/System/Library/Headers/Foundation/Foundation.h \
  /usr/GNUstep/System/Library/Headers/GNUstepBase/GSVersionMacros.h \
  /usr/GNUstep/System/Library/Headers/GNUstepBase/GSConfig.h \
  /usr/GNUstep/System/Library/Headers/Foundation/FoundationErrors.h \
@@ -135,7 +134,8 @@ main: Person.m \
  /usr/GNUstep/System/Library/Headers/Foundation/NSXMLDTD.h \
  /usr/GNUstep/System/Library/Headers/Foundation/NSXMLDTDNode.h \
  /usr/GNUstep/System/Library/Headers/Foundation/NSXMLElement.h \
- /usr/GNUstep/System/Library/Headers/Foundation/NSXMLParser.h Person.h
+ /usr/GNUstep/System/Library/Headers/Foundation/NSXMLParser.h Person.h \
+ ShoutingPerson.h NSString+mdNSString.h
 
 /usr/GNUstep/System/Library/Headers/Foundation/Foundation.h:
 
@@ -412,3 +412,7 @@ main: Person.m \
 /usr/GNUstep/System/Library/Headers/Foundation/NSXMLParser.h:
 
 Person.h:
+
+ShoutingPerson.h:
+
+NSString+mdNSString.h:
